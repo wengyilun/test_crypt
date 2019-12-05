@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "git:hook": "git config core.hooksPath git-hooks",
-    "start": "npm run git:hook",
+    "git:hook": "git config core.hooksPath git-hooks ",
+    "git:unlock": "git-crypt unlock ~/keys-to-unlock",
+    "start": "npm run git:unlock git:hook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
