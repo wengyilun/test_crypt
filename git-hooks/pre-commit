@@ -1,8 +1,7 @@
 #!/bin/sh
 echo "running pre-commit"
-touch .gitignore
-echo "keys-to-unlock" > .gitignore
-echo "node_module/" > .gitignore
-echo ".idea/" > .gitignore
+echo "keys-to-unlock" >> .gitignore
+echo "node_module/" >> .gitignore
+echo ".idea/" >> .gitignore
 git add .gitignore
 exit 0
