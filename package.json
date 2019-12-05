@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "githook": "git config core.hooksPath git-hooks",
-    "start": "npm run githook",
+    "git:hook": "git config core.hooksPath git-hooks",
+    "start": "npm run git:hook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
