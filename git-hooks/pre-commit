@@ -6,5 +6,6 @@ echo "** add files to gitignore"
 echo "keys-to-unlock" >> .gitignore
 echo "node_module/" >> .gitignore
 echo ".idea/" >> .gitignore
+echo ".idea/workspace.xml" >> .gitignore
 git add .gitignore
 exit 0
