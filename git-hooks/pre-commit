@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "running pre-commit"
-touch .gitignore
+cp .gitignore .gitignore
 echo "keys-to-unlock" > .gitignore
 git add .gitignore
 exit 0
