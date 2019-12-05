@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "running pre-commit"
 touch .gitignore
 echo "keys-to-unlock" > .gitignore
 git add .gitignore
